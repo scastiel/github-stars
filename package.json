@@ -4,7 +4,7 @@
   "description": "My Remotion video",
   "scripts": {
     "start": "remotion studio",
-    "build": "remotion render MyComp out/video.mp4",
+    "build": "remotion render GitHubStars out/video.mp4",
     "upgrade": "remotion upgrade",
     "test": "eslint src --ext ts,tsx,js,jsx && tsc"
   },
@@ -14,7 +14,8 @@
     "@remotion/cli": "4.0.74",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "remotion": "4.0.74"
+    "remotion": "4.0.74",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@remotion/eslint-config": "4.0.74",
